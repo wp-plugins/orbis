@@ -1,0 +1,32 @@
+#icon-orbis {
+	background: url("../images/icon-32x32.png") no-repeat;	
+}
+
+tr.cancelled td {
+    color: #999;
+
+    text-decoration: line-through;
+}
+
+th.column-orbis_project_id {
+	width: 5em;
+}
+
+.orbis_company_id_field {
+	width: 300px;	
+}
+
+/**
+ * Orbis company meta box
+ */
+#orbis_company_details .form-table .title {
+	margin: 0;
+}
+
+#orbis_company_details ::-webkit-input-placeholder {
+   color: #999;
+}
+
+#orbis_company_details :-moz-placeholder {
+	color: #999;
+}
